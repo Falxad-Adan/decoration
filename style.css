@@ -42,9 +42,9 @@ nav ul li:hover .drop{
  
   background-color: rgb(252, 244, 244);
 }
-.nav h1{
+ h1 a{
   text-decoration: none;
-   color: white;
+   color: rgb(0, 0, 0);
     font-size: 35px;
     font-weight: 600;
 }
@@ -83,7 +83,7 @@ input[type="checkbox"]{
 .main h2{
   color: rgb(0, 0, 0);
  /* text-align: center; */
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
   
 }
@@ -94,7 +94,7 @@ input[type="checkbox"]{
 }
 
 .main button:hover{
-  color: rgb(157, 23, 23);
+  color: rgb(244, 249, 252);
   border-radius: 50px;
 }
 
@@ -109,6 +109,7 @@ input[type="checkbox"]{
   margin-top: 30px;
   color:black;
   color: pointer;
+  padding: 10px;
 }
 
 
@@ -138,7 +139,7 @@ section div{
 
 }
 .box-feature:hover{
-  box-shadow: 4px 6px 12px lightpink;
+  box-shadow: 4px 6px 12px lightslategray;
   /* background-color: rgb(31, 28, 28); */
 }
 
@@ -186,7 +187,7 @@ html{
  margin-right: 200px;
 }
 .grid-service img:hover{
-  box-shadow: 2px 4px 8px red;
+  box-shadow: 2px 4px 8px lightslategray;
 }
 /* .grid-service p{
   font-style: normal;
@@ -217,13 +218,13 @@ html{
   margin-left: 60px;
 }
 .Service h4:hover{
-  color: red;
+  color: rgb(14, 12, 12);
 
   font-size: 30px;
 }
 .Service h5:hover{
   font-size: 12px;
-  color: red;
+  color: rgb(10, 10, 10);
 }
 
 
@@ -296,7 +297,7 @@ text-align: center;
    border-radius: 12px;
 } 
 button:hover{
-  color: red;
+  color: white;
   background-color: black;
 }
 
@@ -311,32 +312,36 @@ button:hover{
   display: grid;
   grid-template-columns: 400px 400px;
   justify-content: center;
-  column-gap: 100px;
+  column-gap: 105px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
+ 
+
 .cont1 img{
   border-radius: 20px;
-  width: 450px;
-  height: 430px;
+  width: 400px;
+  height: 450px;
   
 
 }
 .cont2{
+  border-radius: 20px;
   background-color:lightslategray;
-  width: 350px;
-  height: 400px;
+  width: 320px;
+  height: 450px;
   padding: 30px;
 
 }
 input{
-  width: 300px;
+  width: 220px;
   height: 30px;
   border-radius: 8px;
   padding-left: 20px;
 }
 textarea{
-  width: 300px;
+ margin-top: 10px;
+  width: 220px;
   height: 180px;
   padding-left: 20px;
   border-radius: 10px;
@@ -348,16 +353,14 @@ textarea{
   display:grid;
   grid-template-columns: 300px 300px 300px;
   justify-content: center;
-  gap: 16px;
- 
- 
-  
+  gap: 18px;
 }
-.customer {
+/* .customer {
   
-  margin-right: 60px;
-}
-.c1 img{
+  margin-right: 100px;
+} */
+.nam img{
+  
   border-radius: 100px;
   width: 100px;
   height: 100px;
@@ -377,10 +380,11 @@ textarea{
  background-color: red;
 } */
 .c1:hover{
-  box-shadow: 2px 4px 6px lightpink;
+  box-shadow: 2px 4px 6px lightslategray;
 
 }
 .c1{
+  border-radius: 20px;
   background-color:lightslategray;
   width: 300px;
   height: 260px;
@@ -390,8 +394,9 @@ textarea{
 
 
 }
+
 .nam{
-  padding-top: 0%;
+  padding-top: 5%;
   display: flex;
   justify-content: top;
   font-size: 10px;
@@ -399,13 +404,12 @@ textarea{
   
 }
 .nam h1{
+  
+  padding-left: 10px;
   margin-bottom: 30px;
   
 }
-.mash{
- text-align: center;
- 
-}
+
 /* .c1:hover{
   width: 300px;
   height:300px ;
@@ -422,7 +426,7 @@ textarea{
      
 }
 .c1 p{
-  
+  padding-left: 10px;
   font-size: 15px;
 }
 /* .c1 h1{
@@ -538,7 +542,7 @@ footer {
 }
 
 .footer-distributed .footer-center p a {
-  color: #e0ac1c;
+  color: #f7f3f3;
   text-decoration: none;
   ;
 }
@@ -638,10 +642,10 @@ footer {
   
       color: rgb(252, 252, 252);
     }
-   h1{
+   /* h1{
       text-align: center;
        color: #f2f2f2;
-     }
+     } */
      /* .main h2{
       font-size: 30px;
       justify-content: center;
@@ -661,7 +665,7 @@ footer {
      } */
      
 
-     .main{
+     /* .main{
     margin-right: 100px;
       display: flex;
       flex-direction: column;
@@ -669,17 +673,27 @@ footer {
        padding-bottom: 30px;
        
 
-  }
+  } */
+  
   .main h2{
-      font-size: 15px;
-      padding-top: 20px;
+    margin-left: auto;
+    width: auto;
+  height: auto;
+  /* padding-right: 100px; */
+    text-align: left;
+      font-size: 20px;
+     
   }
   .main button{
-    margin-right: 10px;
+    margin-left: auto;
+  width: auto;
+  height: auto;
     background-color: #000000;
-    font-size: 10px;
-    padding-top: 20px;
+    /* margin-right: 130px; */
+    text-align: center;
+      font-size: 15px;
     color: white;
+    
 }
     section{
       display:flex;
@@ -718,6 +732,9 @@ footer {
   }
  
   .grid-service{
+   margin-left: 20px;
+   width: auto;
+   height: auto;
     display: grid;
     grid-template-columns: 300px;
     gap: 16px;
@@ -729,7 +746,8 @@ footer {
     gap: 16px;
   }
   .contact img{
-    display: none;
+    width: auto;
+  height: auto;
   }
   .contact{
     

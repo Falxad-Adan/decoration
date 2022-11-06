@@ -129,19 +129,19 @@ section{
   }
   .cont2{
     background-color:lightslategray;
-    width: 350px;
-    height: 400px;
+    width: auto;
+    height: auto;
     padding: 30px;
   
   }
   input{
-    width: 300px;
+    width: 220px;
     height: 30px;
     border-radius: 8px;
     padding-left: 20px;
   }
   textarea{
-    width: 300px;
+    width: 220px;
     height: 180px;
     padding-left: 20px;
     border-radius: 10px;

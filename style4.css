@@ -10,7 +10,7 @@
     font-weight: bold;
     font-size: 60px;
     text-align: center;
-    color: rgb(76, 170, 118);
+    color: rgb(11, 12, 12);
 }
 .item2 h2{
     font-size: 20px;
@@ -87,19 +87,19 @@ section{
   }
   .cont2{
     background-color:lightslategray;
-    width: 350px;
-    height: 400px;
+    width: auto;
+    height: auto;
     padding: 30px;
   
   }
   input{
-    width: 300px;
+    width: 220px;
     height: 30px;
     border-radius: 8px;
     padding-left: 20px;
   }
   textarea{
-    width: 300px;
+    width: 220px;
     height: 180px;
     padding-left: 20px;
     border-radius: 10px;
@@ -191,9 +191,9 @@ section div{
     display: none;
   }
   .contact{
-    
     display: grid;
     grid-template-columns: 300px;
     gap: 16px;
+    
   }
   }
